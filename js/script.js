@@ -14,14 +14,22 @@
 // console.log("La somma è: " + somma);
 
 
-// +++ JSnack 2 +++
+// // +++ JSnack 2 +++
 
-const word1 = prompt("Inserisci la prima parola: ");
-const word2 = prompt("Inserisci la seconda parola: ");
-if (word1.length > word2.length) {
-    console.log(word1);
-} else if (word1.length < word2.length) {
-    console.log(word2);
-} else {
-    console.log(word1 + " " + word2);
+// const word1 = prompt("Inserisci la prima parola: ");
+// const word2 = prompt("Inserisci la seconda parola: ");
+// if (word1.length > word2.length) {
+//     console.log(word1);
+// } else if (word1.length < word2.length) {
+//     console.log(word2);
+// } else {
+//     console.log(word1 + " " + word2);
+// }
+
+// +++ JSnack 3 +++
+
+let potenza = 1;
+while (potenza < 1000) {
+    potenza = potenza * 2;
+    console.log(potenza);
 }
